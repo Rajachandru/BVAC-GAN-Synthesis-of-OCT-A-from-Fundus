@@ -1,4 +1,7 @@
 Conditional Generative Adversarial Network (C-GAN) for Diabetic Retinopathy (DR) diagnosis
+![WhatsApp Image 2025-05-05 at 5 28 04 PM](https://github.com/user-attachments/assets/83f676f2-4166-45d1-a3cf-327a8a0f6cfb)
+![WhatsApp Image 2025-05-05 at 5 28 07 PM (2)](https://github.com/user-attachments/assets/2e45dd15-12f0-48be-9a1c-d9bb885ff9ee)
+              THE APP TESTED AND DEPUTED IN HOSPITAL
 
 The Dataset is available in [1] and a similar research work to generate synthetic OCTA images using dataset [1] is available in [2].
 
