@@ -2,18 +2,20 @@
 ![WhatsApp Image 2025-05-05 at 5 28 04 PM](https://github.com/user-attachments/assets/83f676f2-4166-45d1-a3cf-327a8a0f6cfb)
 ![WhatsApp Image 2025-05-05 at 5 28 07 PM (2)](https://github.com/user-attachments/assets/2e45dd15-12f0-48be-9a1c-d9bb885ff9ee)
                                 
-                                **THE APP TESTED AND DEPUTED IN HOSPITAL**
+                              THE APP TESTED AND DEPUTED IN HOSPITAL
                                 
 ![APP Screenshot](https://github.com/user-attachments/assets/28ee70b0-40fb-47c7-8c6f-d5ed49bcf8b5)
 
                                 
-                                **Screen Shot of the User friendly APP**
+                                Screen Shot of the User friendly APP
 
 
 
 **File Descriptions**
 Fundus_OCTA_cGAN_v1. ipynb  -  Python code for BVAC GAN
+
 app.py                      -  Flask based Application with user-friendly infterface for Doctors to upload fundus and seek OCTA equivalent.
+
 The Dataset is available in [1] and a similar research work to generate synthetic OCTA images using dataset [1] is available in [2].
 
 **Proposed Methodology:**
