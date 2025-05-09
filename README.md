@@ -4,7 +4,8 @@
                                 
                                 **THE APP TESTED AND DEPUTED IN HOSPITAL**
                                 
-                                ![APP Screenshot](https://github.com/user-attachments/assets/cb4b78c3-2862-4579-adff-8f40ea4ce23f)
+![APP Screenshot](https://github.com/user-attachments/assets/28ee70b0-40fb-47c7-8c6f-d5ed49bcf8b5)
+
                                 
                                 **Screen Shot of the User friendly APP**
 
