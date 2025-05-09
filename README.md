@@ -28,19 +28,19 @@ The following steps are executed to generate synthetic OCT-A image pair from Fun
 Encoder stage of U-Net: customized threshold-based Squeeze and excitaion (SE) block 
 4. Loss: Generator loss, discriminator loss
 5. Training the model
-7. Develop a Web based application (APP) to predict OCT-A pair from Fundus image
+6. Develop a Web based application (APP) to predict OCT-A pair from Fundus image
 
    The below fig shows a fundus image sample, OCTA synthesized by conventional GAN, our BVAC GAN and the ground truth OCT-A
 ![image](https://github.com/user-attachments/assets/946a4a99-937b-449c-ace7-4c8d172f2cfa)
 
 ![WhatsApp Image 2025-05-09 at 2 26 27 PM (1)](https://github.com/user-attachments/assets/45058898-d3f1-49ac-b7c5-3b5499269d8b)
 
-**DR Diagnosis**
+                                               DR Diagnosis
 
 ![WhatsApp Image 2025-05-09 at 2 26 26 PM](https://github.com/user-attachments/assets/35c36d6f-771e-4003-b908-4aeff1e5d1f1)
 
-**Entropy based Squeeze & Excitation**
+                                    Entropy based Squeeze & Excitation
 
 Reference:
-1.	https://zenodo.org/records/6476639 [1]
+1.	https://zenodo.org/records/6476639 
 2.	Coronado I, Pachade S, Trucco E, Abdelkhaleq R, Yan J, Salazar-Marioni S, Jagolino-Cole A, Bahrainian M, Channa R, Sheth SA, Giancardo L. Synthetic OCT-A blood vessel maps using fundus images and generative adversarial networks. Sci Rep 2023;13:15325. https://doi.org/10.1038/s41598-023-42062-9.
