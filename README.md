@@ -11,13 +11,18 @@
 
 
 
-**File Descriptions**
+**File Descriptions and order**
 Fundus_OCTA_cGAN_v1. ipynb  -  Python code for BVAC GAN
 
 app.py                      -  Flask based Application with user-friendly infterface for Doctors to upload fundus and seek OCTA equivalent.
 
 The Dataset is available in [1] and a similar research work to generate synthetic OCTA images using dataset [1] is available in [2].
+DR_classification. ipynb    -  Python code to diagnose Diabetic Retinopathy with Fundus images from dataset [3] and BVAC GAN synthesized OCTA images (Output of Fundus_OCTA_cGAN_v1. ipynb) 
 
+ORDER OF EXECUTION
+FIRST RUN  Fundus_OCTA_cGAN_v1. ipynb   to train BVAC GAN to synthesize OCTA paired images from the fundus imageas using dataset[1] available in [2].
+NEXT RUN  DR_classification. ipynb  with dataset in [3]. This code generates OCTA pairs for fundus images in [3] and classifies DR with DR labels available in [3]. 
+ 
 **Proposed Methodology:**
 The fundus imaging has no depth information of retinal vasculature and OCTA has no direct visualization of the Optic Disc, macula. Both the modalities hold complementary feature maps with respect to DR diagnosis. We propose a first of the kind model, combining the two modalities i. (original) fundus images ii. (GAN synthesized) OCT-A images to diagnose DR. We feed the fundus images and BVAC synthesized OCT-A images to 2 ResNet 50 CNNs with a merged Fully Connected layer for DR diagnosis.
 
@@ -44,3 +49,4 @@ Encoder stage of U-Net: customized threshold-based Squeeze and excitaion (SE) bl
 Reference:
 1.	https://zenodo.org/records/6476639 
 2.	Coronado I, Pachade S, Trucco E, Abdelkhaleq R, Yan J, Salazar-Marioni S, Jagolino-Cole A, Bahrainian M, Channa R, Sheth SA, Giancardo L. Synthetic OCT-A blood vessel maps using fundus images and generative adversarial networks. Sci Rep 2023;13:15325. https://doi.org/10.1038/s41598-023-42062-9.
+3.	https://www.kaggle.com/datasets/benjaminwarner/resized-2015-2019-blindness-detection-images
