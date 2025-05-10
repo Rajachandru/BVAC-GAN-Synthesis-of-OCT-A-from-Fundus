@@ -12,9 +12,11 @@
 
 
 **File Descriptions and order**
-Fundus_OCTA_cGAN_v1. ipynb  -  Python code for BVAC GAN
-DR_classification. ipynb    -  DR Classification with Fundus and DR labels from [3]  & BVAC GAN synthesized OCTA pairs for the fundus images as supplementary input.  
-app.py                      -  Flask based Application with user-friendly infterface for Doctors to upload fundus and seek OCTA equivalent.
+**Fundus_OCTA_cGAN_v1. ipynb ** -  Python code for BVAC GAN
+
+**DR_classification. ipynb **   -  DR Classification with Fundus and DR labels from [3]  & BVAC GAN synthesized OCTA pairs for the fundus images as supplementary input.  
+
+**app.py**                      -  Flask based Application with user-friendly infterface for Doctors to upload fundus and seek OCTA equivalent.
 
 The Dataset is available in [1] and a similar research work to generate synthetic OCTA images using dataset [1] is available in [2].
 DR_classification. ipynb    -  Python code to diagnose Diabetic Retinopathy with Fundus images from dataset [3] and BVAC GAN synthesized OCTA images (Output of Fundus_OCTA_cGAN_v1. ipynb) 
