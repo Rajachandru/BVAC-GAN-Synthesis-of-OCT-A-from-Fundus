@@ -48,8 +48,9 @@ Encoder stage of U-Net: customized threshold-based Squeeze and excitaion (SE) bl
 
                                     Entropy based Squeeze & Excitation
 ![image](https://github.com/user-attachments/assets/44b5f526-286e-4c62-9c3f-a5103a81eb0e)
-                                             OUTCOMES OF OUR BVAC GAN  [ IN FIG FUNUS - OCTA predicted by cGAN - BVAC GAN - Ground truth]
-Reference:
+                                             OUTCOMES OF OUR BVAC GAN  
+                            [ IN FIG FUNUS - OCTA predicted by cGAN - BVAC GAN - Ground truth]
+References:
 1.	https://zenodo.org/records/6476639 
 2.	Coronado I, Pachade S, Trucco E, Abdelkhaleq R, Yan J, Salazar-Marioni S, Jagolino-Cole A, Bahrainian M, Channa R, Sheth SA, Giancardo L. Synthetic OCT-A blood vessel maps using fundus images and generative adversarial networks. Sci Rep 2023;13:15325. https://doi.org/10.1038/s41598-023-42062-9.
 3.	https://www.kaggle.com/datasets/benjaminwarner/resized-2015-2019-blindness-detection-images
