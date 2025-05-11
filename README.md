@@ -47,8 +47,9 @@ Encoder stage of U-Net: customized threshold-based Squeeze and excitaion (SE) bl
 ![WhatsApp Image 2025-05-09 at 2 26 26 PM](https://github.com/user-attachments/assets/35c36d6f-771e-4003-b908-4aeff1e5d1f1)
 
                                     Entropy based Squeeze & Excitation
-![image](https://github.com/user-attachments/assets/44b5f526-286e-4c62-9c3f-a5103a81eb0e)
-                                             
+                                    
+![image](https://github.com/user-attachments/assets/38140e5e-d1c8-47ec-a8ad-4811438eaba8)
+
                                              OUTCOMES OF OUR BVAC GAN  
                                              
                             [ IN FIG : FUNUS - OCTA predicted by cGAN - BVAC GAN - Ground truth]
