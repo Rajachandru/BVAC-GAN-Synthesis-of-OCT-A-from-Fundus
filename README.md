@@ -1,13 +1,13 @@
-**Conditional Generative Adversarial Network (C-GAN) for Diabetic Retinopathy (DR) diagnosis**
+**BVAC (Blood Vessel Attention - Conditional) Generative Adversarial Network (GAN) for Diabetic Retinopathy (DR) diagnosis**
 ![WhatsApp Image 2025-05-05 at 5 28 04 PM](https://github.com/user-attachments/assets/83f676f2-4166-45d1-a3cf-327a8a0f6cfb)
 ![WhatsApp Image 2025-05-05 at 5 28 07 PM (2)](https://github.com/user-attachments/assets/2e45dd15-12f0-48be-9a1c-d9bb885ff9ee)
                                 
-                              THE APP TESTED AND DEPUTED IN HOSPITAL
+                              THE APP TESTED AND DEPLOYED IN HOSPITAL
                                 
 ![APP Screenshot](https://github.com/user-attachments/assets/28ee70b0-40fb-47c7-8c6f-d5ed49bcf8b5)
 
                                 
-                                Screen Shot of the User friendly APP
+                                Screenshot of the User friendly APP
 
 
 
@@ -16,7 +16,7 @@
 
 ****DR_classification. ipynb** **   -  DR Classification with Fundus and DR labels from [3]  & BVAC GAN synthesized OCTA pairs for the fundus images as supplementary input.  
 
-**app.py**                      -  Flask based Application with user-friendly infterface for Doctors to upload fundus and seek OCTA equivalent.
+**app.py**                      -  Flask-based Application with user-friendly infterface for Doctors to upload fundus and seek OCTA equivalent.
 
 The Dataset is available in [1] and a similar research work to generate synthetic OCTA images using dataset [1] is available in [2].
 DR_classification. ipynb    -  Python code to diagnose Diabetic Retinopathy with Fundus images from dataset [3] and BVAC GAN synthesized OCTA images (Output of Fundus_OCTA_cGAN_v1. ipynb) 
